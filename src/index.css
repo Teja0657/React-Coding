@@ -1,0 +1,34 @@
+.pic {
+    
+    border: 1px solid hsl(0, 6%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    max-width :250px;
+    display: inline-block;
+}
+.pp{
+    max-width: 60%;
+    border-radius: 60%;
+    height: auto;
+}
+.button { 
+    background-color: hsl(200, 100%, 50%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer
+}
+.student{
+    font-size: large;
+    font-family: cursive;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+.student p{
+    margin: 0;
+}
