@@ -8,6 +8,7 @@ import Usestate from './usesate.jsx';
 import Useeffect from './Useeffect.jsx';
 import Onchange from './Onchange.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import MyComponent from './ObjectsUpdate.jsx';
 function App() {
       return(
         <>
@@ -34,6 +35,8 @@ function App() {
           <Onchange/>
           <hr/>
           <ColorPicker/>
+          <hr/>
+          <MyComponent/>
         </>
       );
 }
