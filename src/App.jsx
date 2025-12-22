@@ -7,6 +7,7 @@ import List from './List.jsx';
 import Usestate from './usesate.jsx';
 import Useeffect from './Useeffect.jsx';
 import Onchange from './Onchange.jsx';
+import ColorPicker from './ColorPicker.jsx';
 function App() {
       return(
         <>
@@ -32,6 +33,7 @@ function App() {
           <hr/>
           <Onchange/>
           <hr/>
+          <ColorPicker/>
         </>
       );
 }
