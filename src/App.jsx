@@ -9,6 +9,9 @@ import Useeffect from './Useeffect.jsx';
 import Onchange from './Onchange.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import MyComponent from './ObjectsUpdate.jsx';
+import MyArray from './ArrayUpdate.jsx';
+import ArrayOfObjects from './ArrayOfObjects.jsx';
+import Clock from './Clock.jsx';
 function App() {
       return(
         <>
@@ -37,6 +40,14 @@ function App() {
           <ColorPicker/>
           <hr/>
           <MyComponent/>
+          <hr/>
+          <MyArray/>
+          <hr/>
+          <ArrayOfObjects/>
+          <hr/>
+          <Clock/>
+          <hr/>
+          
         </>
       );
 }

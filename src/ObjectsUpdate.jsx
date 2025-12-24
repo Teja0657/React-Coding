@@ -19,7 +19,7 @@ function MyComponent(){
             <input type='number' value={car.year} onChange={handleYearChange}/><br/>
             <input type='text' value={car.make} onChange={handleMakeChange}/><br/>
             <input type='text' value={car.model} onChange={handleModelChange}/><br/>
-            <input type='email' value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
+            <input type='email' value={email} placeholder='enter your mail' onChange={(e)=>{setEmail(e.target.value)}}/>
             <p>Eamil:{email}</p>
         </div>
     );
