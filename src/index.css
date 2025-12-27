@@ -46,3 +46,7 @@
     border: 5px solid hsl(0, 0, 80);
     border-radius: 25px;
 }
+.A{
+    border: 2px solid;
+    padding: 25px;
+}

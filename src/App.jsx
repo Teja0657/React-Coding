@@ -12,6 +12,7 @@ import MyComponent from './ObjectsUpdate.jsx';
 import MyArray from './ArrayUpdate.jsx';
 import ArrayOfObjects from './ArrayOfObjects.jsx';
 import Clock from './Clock.jsx';
+import ComponentA from './UseContext.jsx';
 function App() {
       return(
         <>
@@ -47,7 +48,8 @@ function App() {
           <hr/>
           <Clock/>
           <hr/>
-          
+          <ComponentA/>
+          <hr/>
         </>
       );
 }
